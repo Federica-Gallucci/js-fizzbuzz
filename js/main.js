@@ -8,13 +8,13 @@
 
 // per ogni numero che va da 1 a 100
 for (let i = 1; i <= 100; i++) {
-  // se i numeri sono sia multipli di 3 che multipli di 5
+  // se i numeri sono sia multipli di 3 che multipli di 5 stampo "FizzBuzz"
   if (i % 3 === 0 && i % 5 === 0) {
-    console.log("FrizzBuzz");
-    // altrimenti se i numeri sono solo multipli di 3
+    console.log("FizzBuzz");
+    // altrimenti se i numeri sono solo multipli di 3 stampo "Fizz"
   } else if (i % 3 === 0) {
-    console.log("Frizz");
-    // altrimenti se i numeri sono solo multipli di 5
+    console.log("Fizz");
+    // altrimenti se i numeri sono solo multipli di 5 stampo "Buzz"
   } else if (i % 5 === 0) {
     console.log("Buzz");
     // altrimenti stampo il numero corrente
