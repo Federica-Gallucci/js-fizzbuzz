@@ -10,13 +10,13 @@
 for (let i = 1; i <= 100; i++) {
   // se i numeri sono sia multipli di 3 che multipli di 5
   if (i % 3 === 0 && i % 5 === 0) {
-    console.log(i + " FrizzBuzz");
+    console.log("FrizzBuzz");
     // altrimenti se i numeri sono solo multipli di 3
   } else if (i % 3 === 0) {
-    console.log(i + "  Frizz");
+    console.log("Frizz");
     // altrimenti se i numeri sono solo multipli di 5
   } else if (i % 5 === 0) {
-    console.log(i + "  Buzz");
+    console.log("Buzz");
     // altrimenti stampo il numero corrente
   } else {
     console.log(i);
